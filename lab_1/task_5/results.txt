@@ -1,0 +1,28 @@
+http://localhost:8080/json_server/characters
+[
+  {
+            "id": 1,
+            "name": "Naruto",
+            "clan": "Uzumaki"
+        },
+        {
+            "id": 2,
+            "name": "Itachi",
+            "clan": "Uchiha"
+  }
+]
+
+http://localhost:8080/json_server/characters/2
+{
+  "id": 2,
+  "name": "Itachi",
+  "clan": "Uchiha"
+}
+
+
+http://localhost:8080
+
+<!DOCTYPE html>
+<html lang="en">
+<h1>I wanna be hokage someday</h1>
+</html>

@@ -1,0 +1,27 @@
+server {
+    listen 80;
+    server_name 0.0.0.0;
+    location /json/characters {
+        proxy_pass http://json-server:8000/characters;
+    }
+    location /json {
+        proxy_pass http://json-server:8000/;
+    }
+    location / {
+        proxy_pass http://lite-server:3000;
+    }
+}
+
+server {
+    listen 80;
+    server_name 0.0.0.0;
+    location /json_server/characters {
+        proxy_pass http://json_server:8000/characters;
+    }
+    location /json_server {
+        proxy_pass http://json_server:8000/;
+    }
+    location / {
+        proxy_pass http://lite_server:3000;
+    }
+}

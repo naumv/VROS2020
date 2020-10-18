@@ -1,0 +1,13 @@
+  {
+    "characters": [{
+            "id": 1,
+            "name": "Naruto",
+            "clan": "Uzumaki"
+        },
+        {
+            "id": 2,
+            "name": "Itachi",
+            "clan": "Uchiha"
+        }
+    ]
+}
